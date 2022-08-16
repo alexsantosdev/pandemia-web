@@ -6,6 +6,10 @@ import Vaccine from './assets/images/vaccine.svg'
 import Power from './assets/images/power.svg'
 import Heart from './assets/images/heart.svg'
 import Kit from './assets/images/kit.svg'
+import Enemy1Head from './assets/images/e_head1.svg'
+import Enemy2Head from './assets/images/e_head2.svg'
+import Civil1Head from './assets/images/c_head1.svg'
+import Civil2Head from './assets/images/c_head2.svg'
 
 import { Container } from './styles'
 import './styles/global.css'
@@ -80,8 +84,15 @@ export function App() {
           <div className="left-side">
             <h2>Quick play!</h2>
             <div className="row">
-              
+              <button><img src={Enemy1Head} alt='Enemy 1 head' /></button>
+              <button><img src={Enemy2Head} alt='Enemy 2 head' /></button>
+              <button><img src={Civil1Head} alt='Civil 1 head' /></button>
+              <button><img src={Civil2Head} alt='Civil 2 head' /></button>
             </div>
+            <span>Conheça os protagonistas da sua diversão diária.</span>
+          </div>
+          <div className="right-side">
+            
           </div>
         </div>
       </div>

@@ -170,4 +170,23 @@ export const Container = styled.div`
             }
         }
     }
+
+    .characters {
+        display: flex;
+        flex-direction: column;
+
+        .row-context {
+            padding: 2rem 0;
+            
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+
+            h2 {
+                font-size: 48px;
+            }
+        }
+    }
 `
